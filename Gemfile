@@ -60,6 +60,9 @@ group :test do
   gem 'chromedriver-helper'
 end
 
+# Seeds fake
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+
 # package sendgrid
 gem 'sendgrid-ruby'
 
@@ -71,9 +74,6 @@ gem 'table_print'
 
 # Compatibility with heroku
 gem 'jquery-rails'
-
-# Seeds fake
-gem 'faker'
 
 # hidden secret
 gem 'dotenv-rails'
